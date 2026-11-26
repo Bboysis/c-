@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-exersice_11",
+      "appliesTo": "exersice_11.cs",
+      "type": "launch"
+    }
+  ]
+}

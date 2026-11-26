@@ -1,0 +1,6 @@
+for (int i = 10; i < 5; i=i+1) → prints nothing. The condition 10 < 5 is false 
+from the start. 
+2. for (int i = 10; i >= 1; i=i+1) → practically infinite loop. i keeps growing, so 
+i >= 1 stays true. It only stops after int overflow (about 2.1 billion prints). 
+3. while (i < 20) with i = 1 → infinite loop. i is never changed inside the loop, so it 
+prints forever.
